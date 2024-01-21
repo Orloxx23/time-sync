@@ -16,7 +16,7 @@ export default function Timezones({ time, setTime }) {
   }, [time, format]);
 
   return (
-    <div className="container max-w-2xl flex flex-col gap-4">
+    <div className="container max-w-2xl flex flex-col gap-4 mt-8 xl:mt-0">
       <div className="flex gap-4">
         <Input
           type="datetime-local"
