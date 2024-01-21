@@ -1,0 +1,17 @@
+import React from "react";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select";
+import { FORMAT12, FORMAT24 } from "@/lib/constants";
+
+export default function FormatSelect({ format, setFormat }) {
+  return (
+    <Select onValueChange={(value) => setFormat(value)}>
+      <SelectTrigger className="aspect-square w-24">
+        <SelectValue placeholder={format} />
+      </SelectTrigger>
+      <SelectContent>
+        <SelectItem value={FORMAT12}>12H</SelectItem>
+        <SelectItem value={FORMAT24}>24H</SelectItem>
+      </SelectContent>
+    </Select>
+  );
+}
