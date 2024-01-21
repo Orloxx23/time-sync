@@ -1,7 +1,17 @@
 {
   "name": "timezones",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Orlando Mina",
+    "email": "orminamadro@gmail.com",
+    "url": "https://orlandomm.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Orloxx23/time-sync"
+  },
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
