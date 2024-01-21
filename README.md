@@ -43,7 +43,7 @@
 
 </div>
 
-> [!INFO]
+> [!NOTE]
 > This project is based on: [midutime](https://github.com/midudev/midu-timeszones-latam).
 > With the help of this guide: [Discord Timestamps Syntax](https://gist.github.com/LeviSnoot/d9147767abeef2f770e9ddcd91eb85aa).
 
