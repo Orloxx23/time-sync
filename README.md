@@ -1,22 +1,94 @@
-## Getting Started
+<div align="center">
+<img src="public/favicon.svg" height="50px" width="auto" /> 
+<h3>
+ TimeSync
+</h3>
+<p>Share Spanish-speaking schedules on social networks and Discord. Automatically display local schedules to reach your audience anywhere in the world. Coordinate your international communications with precision.</p>
+</div>
 
-First, run the development server:
+<div align="center">
+    <a href="https://timesync-psi.vercel.app/" target="_blank">
+        Preview
+    </a>
+    <span>&nbsp;⌚&nbsp;</span>
+    <a href="#-getting-started">
+        Getting Started
+    </a>
+    <span>&nbsp;⌚&nbsp;</span>
+    <a href="#-commands">
+        Commands
+    </a>
+    <span>&nbsp;⌚&nbsp;</span>
+    <a href="#-license">
+        License
+    </a>
+</div>
+
+<p></p>
+
+<div align="center">
+
+![Astro Badge](https://img.shields.io/badge/Nextjs-000?logo=nextdotjs&logoColor=fff&style=flat)
+![GitHub stars](https://img.shields.io/github/stars/Orloxx23/time-sync)
+![GitHub issues](https://img.shields.io/github/issues/Orloxx23/time-sync)
+![GitHub forks](https://img.shields.io/github/forks/Orloxx23/time-sync)
+![GitHub PRs](https://img.shields.io/github/issues-pr/Orloxx23/time-sync)
+![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=flat)
+
+</div>
+
+<div align="center">
+
+![Preview](https://i.imgur.com/RokIRjd.png)
+
+</div>
+
+> [!INFO]
+> This project is based on: [midutime](https://github.com/midudev/midu-timeszones-latam).
+> With the help of this guide: [Discord Timestamps Syntax](https://gist.github.com/LeviSnoot/d9147767abeef2f770e9ddcd91eb85aa).
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## 🛠️ Stack
+
+- [**Next.js**](https://nextjs.org/) - The React Framework.
+- [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
+- [**Shadcn/ui**](https://ui.shadcn.com/) - component library
+
+## 🚀 Getting Started
+
+1. [Fork](https://github.com/Orloxx23/time-sync/fork) or clone this repository.
+
+```bash
+git clone git@github.com:Orloxx23/time-sync.git
+```
+
+2. Install the dependencies:
+
+```bash
+npm install 
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [**http://localhost:3000**](http://localhost:3000/) with your browser to see the result 🚀
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📖 Commands
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+|     | Command          | Action                                        |
+| :-- | :--------------- | :-------------------------------------------- |
+| ⚙️  | `dev` or `start` | Starts local dev server at `localhost:3000`.  |
+| ⚙️  | `build`          | Build your production site.      |
+
+## 🔑 License
+
+[MIT](#) - Created by [**Orlando Mina**](https://orlandomm.net).
+
+---
 
 ## Learn More
 
