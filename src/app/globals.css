@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.emojis {
-  font-family: "Twemoji Country Flags";
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;
