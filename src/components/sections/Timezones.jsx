@@ -7,13 +7,22 @@ import { FORMAT12 } from "@/lib/constants";
 import { fillTextArea } from "@/lib/utils";
 
 export default function Timezones({ time, setTime }) {
-  // const [time, setTime] = useState("");
   const [result, setResult] = useState("");
   const [format, setFormat] = useState(FORMAT12);
+
+  const changeFormat = (f) => {
+    setFormat(f);
+    localStorage.setItem("format", f);
+  };
 
   useEffect(() => {
     fillTextArea(time, format, setResult);
   }, [time, format]);
+
+  useEffect(() => {
+    const _format = localStorage.getItem("format");
+    if (_format) setFormat(_format);
+  }, []);
 
   return (
     <div className="container max-w-2xl flex flex-col gap-4 mt-8 xl:mt-0">
@@ -23,11 +32,9 @@ export default function Timezones({ time, setTime }) {
           value={time}
           onChange={(e) => setTime(e.target.value)}
         />
-        <FormatSelect format={format} setFormat={setFormat} />
+        <FormatSelect format={format} setFormat={changeFormat} />
         <Help
-          text={
-            "Al pegar el texto las banderas se veran de forma correcta."
-          }
+          text={"Al pegar el texto las banderas se veran de forma correcta."}
         />
       </div>
       <TimesResults result={result} setResult={setResult} />
