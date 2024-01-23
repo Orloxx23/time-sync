@@ -9,7 +9,7 @@ export const metadata = {
   title: "TimeSync",
   description:
     "Comparte horarios hispanohablantes en redes sociales y Discord. Muestra automáticamente horarios locales para llegar a tu audiencia en cualquier parte del mundo. Coordina tus comunicaciones internacionales con precisión.",
-  image: "/favivon.svg",
+  image: "/favicon.svg",
 };
 
 import { Toaster } from "@/components/ui/sonner";
